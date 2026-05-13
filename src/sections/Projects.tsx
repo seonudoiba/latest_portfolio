@@ -6,31 +6,17 @@ gsap.registerPlugin(ScrollTrigger)
 
 const projects = [
   {
-    title: 'Petrosoft Enterprise',
-    description: 'Mission-critical oil \u0026 gas platform maintaining 99.9% uptime for petroleum operators managing fuel station networks across Nigeria.',
-    tech: ['Laravel 10', 'PHP 8+', 'MySQL', 'Redis'],
-    image: '/projects/petrosoft.jpg',
-    year: '2024',
-  },
-  {
-    title: 'SmartPump IoT',
-    description: "Nigeria's first fully automated unmanned fuel stations. Real-time IoT telemetry with TCP binary protocol decoding and CRC16 validation.",
-    tech: ['React.js', 'WebSocket', 'IoT', 'TCP'],
-    image: '/projects/smartpump.jpg',
-    year: '2025',
-  },
-  {
     title: 'Marineng Platform',
     description: 'Subscription-based maritime equipment marketplace with WebSocket real-time messaging, newsletter automation, and multi-role RBAC.',
     tech: ['Laravel', 'React.js', 'React Native', 'PostGIS'],
-    image: '/projects/marineng.jpg',
+    image: '/project-marineng.png',
     year: '2024',
   },
   {
     title: 'ClientFocus SaaS',
     description: 'Multi-tenant SaaS with AI-powered session summarization, Stripe Connect payments, and 100+ user data isolation.',
     tech: ['Next.js 15', 'TypeScript', 'Firestore', 'Stripe'],
-    image: '/projects/clientfocus.jpg',
+    image: '/projects-clientfocus.png',
     year: '2024',
   },
 ]
